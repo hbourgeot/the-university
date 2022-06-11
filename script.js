@@ -24,11 +24,11 @@ function addClass() {
   youtubeLink.classList.add("alt");
 }
 function removeClass() {
-  topHeader.classList.add("alt");
-  nav.classList.add("alt");
-  facebookLink.classList.add("alt");
-  instagramLink.classList.add("alt");
-  youtubeLink.classList.add("alt");
+  topHeader.classList.remove("alt");
+  nav.classList.remove("alt");
+  facebookLink.classList.remove("alt");
+  instagramLink.classList.remove("alt");
+  youtubeLink.classList.remove("alt");
 }
 
 function dotAddClass(principal, toRemove1, toRemove2, toRemove3, toRemove4) {
@@ -46,10 +46,10 @@ if (scroll >= 50) {
 }
 
 window.onscroll = (e) => {
-  let scroll = window.scrollY;
-  if (scroll >= 50) {
+  let scrollY = window.scrollY;
+  if (scrollY >= 50) {
     addClass();
-  } else if (scroll < 50) {
+  } else if (scrollY < 50) {
     removeClass();
   }
 };
