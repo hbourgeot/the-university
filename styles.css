@@ -252,6 +252,9 @@ nav .container-xl {
 .col-7 + .col-4 {
   background-color: white;
   border-radius: 20px;
+  -webkit-box-shadow: 3px 4px 4px 0px #5d7b83;
+  -moz-box-shadow: 3px 4px 4px 0px #5d7b83;
+  box-shadow: 3px 4px 4px 0px #5d7b83;
 }
 
 .hero-text {
@@ -359,6 +362,9 @@ nav .container-xl {
   font-weight: 700;
   text-align: center;
   width: 250px;
+  -webkit-box-shadow: 3px 4px 4px 0px rgba(212, 212, 212, 1);
+  -moz-box-shadow: 3px 4px 4px 0px rgba(212, 212, 212, 1);
+  box-shadow: 3px 4px 4px 0px rgba(212, 212, 212, 1);
 }
 
 .card.card.col-2 .card-title {
